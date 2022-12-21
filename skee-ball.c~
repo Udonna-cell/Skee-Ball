@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+/**
+ * main - this program prints text to the screen 
+ * Return: returns 0
+ */
+ 
+ int main(void)
+ {
+   int points, cost_of_squirt_gun, tickets;
+   
+   scanf("%d %d", &points, &cost_of_squirt_gun);
+  
+   tickets = points / 12;
+   
+   
+   if (tickets >= cost_of_squirt_gun)
+   {
+     printf("Buy it!");
+   } else {
+     printf("Try again");
+   }
+   
+   return (0)
+ }
