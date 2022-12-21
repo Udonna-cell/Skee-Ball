@@ -8,6 +8,8 @@
  int main(void)
  {
    int points, cost_of_squirt_gun, tickets;
+
+   printf("Enter your points and squirt gun cost in ticket: ");
    
    scanf("%d %d", &points, &cost_of_squirt_gun);
   
